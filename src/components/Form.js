@@ -27,7 +27,7 @@ class Form extends Component {
             <input
               type="text"
               name= "Id"
-              value ={this.state.category}
+              value ={this.state.id}
               onChange={this.onChange}>
             </input>
           </div>
@@ -36,7 +36,7 @@ class Form extends Component {
             <input
               type="text"
               name= "address"
-              value ={this.state.id}
+              value ={this.state.address}
               onChange={this.onChange}>
             </input>
           </div>
@@ -45,7 +45,7 @@ class Form extends Component {
             <input
               type="text"
               name= "boiler"
-              value ={this.state.description}
+              value ={this.state.boiler}
               onChange={this.onChange}>
             </input>
           </div>
@@ -54,7 +54,7 @@ class Form extends Component {
             <input
               type="text"
               name= "fullname"
-              value ={this.state.skills}
+              value ={this.state.fullName}
               onChange={this.onChange}>
             </input>
           </div>
@@ -63,7 +63,7 @@ class Form extends Component {
             <input
               type="text"
               name= "phone"
-              value ={this.state.skills}
+              value ={this.state.phone}
               onChange={this.onChange}>
             </input>
           </div>
